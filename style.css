@@ -32,6 +32,7 @@
   color: var(--second-text-color);
   font-size: 32px;
   font-weight: 500;
+  cursor: pointer;
 }
 .list li {
   display: inline-block;
@@ -64,3 +65,243 @@
 
 /*Navbar Section End*/
 /*Navbar Section End*/
+
+/*Home Section Start*/
+/*Home Section Start*/
+.home {
+  height: 830px;
+  width: 100%;
+  position: relative;
+}
+.home-container {
+  background-color: var(--bg-color);
+  height: 70%; /* Cover half of the parent height */
+  width: 100%; /* Full width of the parent */
+  position: absolute;
+  padding: 2rem 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.home-content {
+  margin-top: 120px;
+  width: 50%;
+}
+.home-content h1 {
+  font-size: 75px;
+  font-weight: 600;
+}
+.home-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 20px;
+  color: #1d1d1fbf;
+}
+.button {
+  margin-top: 35px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 1.3rem 2.5rem;
+  background-color: var(--second-text-color);
+  color: white;
+}
+.button a {
+  color: white;
+}
+.button i {
+  font-size: 25px;
+  position: relative;
+  left: 7px;
+  top: 5px;
+}
+
+.home-img .img-1 {
+  width: 500px;
+}
+.home-img .dot {
+  position: relative;
+  right: 143px;
+  bottom: -15px;
+}
+.rating {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 377px;
+  padding: 18px 25px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+.rating .text {
+  font-weight: 500;
+  margin-right: 8px;
+}
+.rating i {
+  color: var(--second-text-color);
+}
+
+.quality {
+  position: absolute;
+  display: inline-block;
+  left: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 57px;
+  top: 251px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+.quality .text2 {
+  font: 14px;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+.quality img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.logo2 {
+  width: 572px;
+  height: 30.85px;
+  position: absolute;
+  bottom: 160px;
+  left: 185px;
+  display: flex;
+  justify-content: space-between;
+}
+/*Home Section End*/
+/*Home Section End*/
+
+/*Service Section Start*/
+/*Service Section Start*/
+.service {
+  padding: 2rem 10%;
+  margin: 0 auto;
+}
+.service-container {
+  height: 185px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1.8px solid #dbdbdb;
+}
+.service-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-box i {
+  color: var(--second-text-color);
+  padding: 25px;
+  background-color: var(--second-bg-color);
+  font-size: 35px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.box-text {
+  color: var(--text-color);
+  line-height: 30.5px;
+}
+.box-text h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+/*Service Section End*/
+/*Service Section End*/
+
+/*Benefit Section Start*/
+/*Benefit Section Start*/
+.about {
+  padding: 5rem 10%;
+}
+.about-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-img {
+  height: 600px;
+  width: 660px;
+  background-color: var(--second-bg-color);
+  position: relative;
+}
+.about-img img {
+  position: absolute;
+  left: 13%;
+
+  width: 480px;
+}
+.about-content h1 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+.about-content h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.about-content-2 .tick {
+  display: flex;
+  width: 70%;
+
+  padding: 10px;
+}
+.about-content-2 .tick i {
+  color: var(--second-text-color);
+  font-size: 30px;
+}
+.about-content-2 .tick h4 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 25px;
+}
+.about-container .dot {
+  position: absolute;
+  right: 500px;
+  top: 73px;
+  z-index: -1;
+}
+/*Benefit Section End*/
+/*Benefit Section End*/
+
+/*Stars Section Start*/
+/*Stars Section Start*/
+.about-img3 {
+  height: 600px;
+  width: 660px;
+  background-color: var(--second-bg-color);
+  position: relative;
+}
+.about-img3 .img3 {
+  position: absolute;
+  right: 0;
+  width: 480px;
+}
+.star-content-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  text-align: center;
+}
+.star-content-2 h2{
+  color: var(--second-text-color);
+  font-size: 40px;
+  font-weight: 600;
+}
+.star-content-2 p{
+  color: #1D1D1F;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*Stars Section End*/
+/*Stars Section End*/
